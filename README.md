@@ -1,2 +1,26 @@
 # doc_git
 Lista de comandos com suas funcionalidades para ajudar no git
+
+git init: ele inicia o arquivo ".git/" para controlar a pasta.
+
+git status: mostra os status (validar) dos arquivos dentro do projeto
+
+git add: adiciona o arquivo no projeto modificado em uma area segura
+
+git commmit -m "<texto_da_modificação>": ele é responsável por criar uma nova versão do projeto com as referencias do criador
+
+git log: traz um historico dos commits validando os comentários e modificações
+
+git checkout -b <nome_da_branch>: adicionando e modificando a branch
+
+git checkout <nome_da_branch>: muda de ramo/branch
+
+git merge <nome_da_branch>: ela adicionanado a branch atual ao contéudo de uma outra branch
+
+gitk: 
+
+
+
+Config de usuario:
+git config --global user.name "< seu_nome>"
+git config --global user.name "< seu_email>"
