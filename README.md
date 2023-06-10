@@ -3,7 +3,10 @@ Lista de comandos com suas funcionalidades para ajudar no git
 
 git init: ele inicia o arquivo ".git/" para controlar a pasta.
 
-git status: mostra os status (validar) dos arquivos dentro do projeto
+git status:
+mostra os status (validar) dos arquivos dentro do projeto
+em vermelho ele mostra os arquivos modificados
+em verde mostra os arquivos que forma adicionados pelo "git add".
 
 git add: adiciona o arquivo no projeto modificado em uma area segura
 
@@ -25,13 +28,23 @@ Config de usuario:
 git config --global user.name "< seu_nome>"
 git config --global user.name "< seu_email>"
 
+
+
 Config de usuario:
 git config --global user.name "< seu_nome>"
 git config --global user.name "< seu_email>"
+
 
 git clobe <url>: Baixa o projeto do repositorio
 git push: ele envia alteração para o repositorio
 git pull: ele puxa as alterações do repositorio.
 
+
+
+
 Possiveis erros
 403: Apagando as cradenciais, Gerenciador de credenciais>Credenciais do windowns
+
+Possiveis erros
+403: Apagando as cradenciais, Gerenciador de credenciais>Credenciais do windowns
+
