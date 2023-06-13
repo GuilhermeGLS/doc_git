@@ -2,8 +2,7 @@
 
 - git init: ele inicia o arquivo ".git/" para controlar a pasta.
 
-- git status:
->mostra os status (validar) dos arquivos dentro do projeto
+- git status:mostra os status (validar) dos arquivos dentro do projeto
 em vermelho ele mostra os arquivos modificados
 em verde mostra os arquivos que forma adicionados pelo "git add".
 
