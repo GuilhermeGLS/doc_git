@@ -1,7 +1,7 @@
 # Lista de comandos com suas funcionalidades para ajudar no git
-````
-- git init: ele inicia o arquivo ".git/" para controlar a pasta.
-````
+
+- **git init:** ele inicia o arquivo ".git/" para controlar a pasta.
+
 - **git status:**
 mostra os status (validar) dos arquivos dentro do projeto
 em vermelho ele mostra os arquivos modificados
