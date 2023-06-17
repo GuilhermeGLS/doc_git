@@ -32,7 +32,7 @@ em verde mostra os arquivos que forma adicionados pelo "git add".
 - **git clone <url>:** Baixa o projeto do repositorio
 - **git push:** ele envia alteração para o repositorio
 - **git pull:** ele puxa as alterações do repositorio.
-
+- **git push --set-upstream origin <branch>:**
 
 
 
