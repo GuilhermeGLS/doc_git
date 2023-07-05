@@ -1,44 +1,79 @@
-# Lista de comandos com suas funcionalidades para ajudar no git
+# Documentação do git para ajudar nos comandos.
 
-- **git init:** ele inicia o arquivo ".git/" para controlar a pasta.
+## Iniciar o projeto no git bash here
+````
+git init
+````
+Ele inicia o arquivo ".git/" para controlar a pasta.
+## Configuração de usuario
+````
+ git config --global user.name"<seu_name>"
+````
+ ````
+ git config --global user.email"<seu_email>"
+````
+ ## Comando para atualizar modificações
+````
+git status
+````
+ ele é responsável por validar os arquivos modificados dentro do projeto.
+````
+git add
+````
+ Ele é responspavel por colocar o arquivo modificado em uma área segura.
+````
+git commit -m "< texto_da_modificação>"
+````
+Ele é responsável por criar uma nova versão do projeto com as referencias do criador.
 
-- **git status:**
-mostra os status (validar) dos arquivos dentro do projeto
-em vermelho ele mostra os arquivos modificados
-em verde mostra os arquivos que forma adicionados pelo "git add".
-
-- **git add:** adiciona o arquivo no projeto modificado em uma area segura
-
-- **git commmit -m "<texto_da_modificação>":** ele é responsável por criar uma nova versão do projeto com as referencias do criador
-
-- **git log**: traz um historico dos commits validando os comentários e modificações
-
-- **git checkout -b <nome_da_branch>:** adicionando e modificando a branch
-
-- **git checkout <nome_da_branch>:** muda de ramo/branch
-
-- **git merge <nome_da_branch>:** ela adicionanado a branch atual ao contéudo de uma outra branch
+````
+git log
+````
+ Validar os meus comentários e modificações
+````
+git checkout -b develop <nome_da_branch>:
+````
+ Cria uma nova branch ou ramo
+````
+git checkout :
+````
+ Muda de branch/ramo
+````
+git merge :
+````
+ Ele adiciona a branch atual e o conteúdo de outra branch
+````
+gitk
+````
+ abre uma tela que mostra todo o historico do que foi feito no projeto
+````
+git clone
+````
+ Baixa o projeto do repositório
+````
+git push
+````
+ Ele envia alterações para o repositório
+````
+git push setupstream orgin <branch>
+````
+Ele evia as alterações para uma branch especifica do repositorio
  
+````
+git pull
+````
+ Ele puxa as alterações do repositório
 
 
+## Possíveis erros: 
+### erro 403:
+Não conseguimos logar com a nossa conta pois consta outra conta no pc.
+````
+Solução: 
+> Apagando as credenciais(vai no windows-gerenciamento de credenciais e apaga o usuario anterior)
 
-## Config de usuario:
-- **git config --global user.name "< seu_nome>"**
-- **git config --global user.name "< seu_email>"**
---------
+## projeto em conjunto
 
-
-
-- **git clone <url>:** Baixa o projeto do repositorio
-- **git push:** ele envia alteração para o repositorio
-- **git pull:** ele puxa as alterações do repositorio.
-- **git push --set-upstream origin <branch>:**
-
-
-
-## Possíveis erros
-### 403:
- >Apagando as cradenciais, Gerenciador de credenciais>Credenciais do windowns
-
-
-
+Vai no git de outra pessoa faz um "FORK" no projeto.
+Volta no seu git entra no projeto compartilhado clica em ponto "." para abrir o VSCODE direto no github,
+ faz a alterações necessarias da um commit no vscode, volta no github e faz um "Pull request . New pull request"
