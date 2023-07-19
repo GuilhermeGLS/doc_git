@@ -68,12 +68,6 @@ git pull
 ## Possíveis erros: 
 ### erro 403:
 Não conseguimos logar com a nossa conta pois consta outra conta no pc.
-````
+
 Solução: 
-> Apagando as credenciais(vai no windows-gerenciamento de credenciais e apaga o usuario anterior)
-
-## projeto em conjunto
-
-Vai no git de outra pessoa faz um "FORK" no projeto.
-Volta no seu git entra no projeto compartilhado clica em ponto "." para abrir o VSCODE direto no github,
- faz a alterações necessarias da um commit no vscode, volta no github e faz um "Pull request . New pull request"
+> Apagando as credenciais(vai no gerenciador de credenciais e apaga o usuario anterior)
