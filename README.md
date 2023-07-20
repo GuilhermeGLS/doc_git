@@ -5,6 +5,11 @@
 git init
 ````
 Ele inicia o arquivo ".git/" para controlar a pasta.
+
+````
+git branch -m <branch>
+````
+Ele modifica o nome da branch atual
 ## Configuração de usuario
 ````
  git config --global user.name"<seu_name>"
