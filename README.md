@@ -44,7 +44,7 @@ git checkout
 ````
  Muda de branch/ramo
 ````
-git merge :
+git merge
 ````
  Ele adiciona a branch atual e o conteúdo de outra branch
 ````
