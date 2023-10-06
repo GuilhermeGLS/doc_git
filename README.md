@@ -65,7 +65,7 @@ git push setupstream orgin <branch>
 Ele evia as alterações para uma branch especifica do repositorio
  
 ````
-git pull
+git pull:
 ````
  Ele puxa as alterações do repositório
 
