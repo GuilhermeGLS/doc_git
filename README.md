@@ -2,7 +2,7 @@
 
 ## Iniciar o projeto no git bash here
 ````
-git init:
+git init
 ````
 Ele inicia o arquivo ".git/" para controlar a pasta.
 
