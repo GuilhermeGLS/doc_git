@@ -60,7 +60,7 @@ git push
 ````
  Ele envia alterações para o repositório
 ````
-git push setupstream orgin <branch>
+git push setupstream orgin: <branch>
 ````
 Ele evia as alterações para uma branch especifica do repositorio
  
