@@ -52,7 +52,7 @@ gitk
 ````
  abre uma tela que mostra todo o historico do que foi feito no projeto
 ````
-git clone
+git clone:
 ````
  Baixa o projeto do repositório
 ````
