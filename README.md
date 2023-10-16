@@ -56,7 +56,7 @@ git clone
 ````
  Baixa o projeto do repositório
 ````
-git push
+git push:
 ````
  Ele envia alterações para o repositório
 ````
