@@ -7,7 +7,7 @@ git init:
 Ele inicia o arquivo ".git/" para controlar a pasta.
 
 ````
-git branch -m <branch>
+git branc: -m <branch>:
 ````
 Ele modifica o nome da branch atual
 ## Configuração de usuario
