@@ -12,7 +12,7 @@ git branc: -m <branch>:
 Ele modifica o nome da branch atual
 ## Configuração de usuario
 ````
- git config --global user.name"<seu_name>"
+ git config --global user.name"<seu_name>":
 ````
  ````
  git config --global user.email"<seu_email>"
