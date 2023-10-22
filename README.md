@@ -15,7 +15,7 @@ Ele modifica o nome da branch atual
  git config --global user.name"<seu_name>":
 ````
  ````
- git config --global user.email"<seu_email>"
+ git config --global user.email"<seu_email>":
 ````
  ## Comando para atualizar modificações
 ````
