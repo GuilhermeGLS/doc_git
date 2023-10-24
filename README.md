@@ -19,7 +19,7 @@ Ele modifica o nome da branch atual
 ````
  ## Comando para atualizar modificações
 ````
-git status
+git status:
 ````
  ele é responsável por validar os arquivos modificados dentro do projeto.
 ````
