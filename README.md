@@ -23,7 +23,7 @@ git status:
 ````
  ele é responsável por validar os arquivos modificados dentro do projeto.
 ````
-git add
+git add:
 ````
  Ele é responspavel por colocar o arquivo modificado em uma área segura.
 ````
