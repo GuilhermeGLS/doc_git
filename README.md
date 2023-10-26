@@ -32,7 +32,7 @@ git commit -m "<texto_da_modificação>"
 Ele é responsável por criar uma nova versão do projeto com as referencias do criador.
 
 ````
-git log
+git log:
 ````
  Validar os meus comentários e modificações
 ````
