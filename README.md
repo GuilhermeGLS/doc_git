@@ -27,7 +27,7 @@ git add:
 ````
  Ele é responspavel por colocar o arquivo modificado em uma área segura.
 ````
-git commit -m "<texto_da_modificação>"
+git commit -m "<texto_da_modificação>":
 ````
 Ele é responsável por criar uma nova versão do projeto com as referencias do criador.
 
