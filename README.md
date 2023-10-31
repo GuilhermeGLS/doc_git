@@ -40,7 +40,7 @@ git checkout -b develop <nome_da_branch>:
 ````
  Cria uma nova branch ou ramo
 ````
-git checkout
+git checkout:
 ````
  Muda de branch/ramo
 ````
