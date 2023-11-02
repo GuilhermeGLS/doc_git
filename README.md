@@ -75,4 +75,4 @@ git pull:
 Não conseguimos logar com a nossa conta pois consta outra conta no pc.
 
 Solução: 
-> Apagando as credenciais(vai no gerenciador de credenciais e apaga o usuario anterior)
+> Apagando as credenciais(vai no gerenciador de credenciais e apaga o usuario anterior
